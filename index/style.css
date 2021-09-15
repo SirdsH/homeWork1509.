@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: #DDDDDD;
+}
+
+.container {
+    display: flex;
+    margin-top: 11em;
+    margin-left: 11.5em;
+}
+
+img {
+    border-bottom-left-radius: .73em;
+    border-top-left-radius: .73em;
+}
+
+.rightside {
+    background-color: darkslategrey;
+    height: 15.625em;
+    width: 27.781em;
+    justify-content: right;
+    border-top-right-radius: .73em;
+    border-bottom-right-radius: .73em;
+}
+
+.textOne {
+    color: whitesmoke;
+    margin-left: 6.8em;
+    margin-top: 3.8em;
+}
+
+.textTwo {
+    color: white;
+    font-family: "Berlin Sans FB", sans-serif;
+    margin-left: 9em;
+}
+
+@media (max-width: 980px) {
+    .container {
+        display: grid;
+        place-items: center;
+        border-radius: 0;
+    }
+
+    img {
+        display: block;
+        border-bottom-left-radius: 0;
+        margin-right: 9em;
+        border-top-left-radius: .73em;
+        border-top-right-radius: .73em;
+    }
+
+    .rightside {
+        margin-bottom: 10em;
+        margin-right: 9em;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: .73em;
+        border-bottom-right-radius: .73em;
+    }
+}
