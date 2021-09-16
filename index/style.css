@@ -55,10 +55,15 @@ img {
         border-radius: 0;
     }
 
-    img {
+    .leftside {
         display: block;
-        border-bottom-left-radius: 0;
         margin-right: 9em;
+        border-top-left-radius: .73em;
+        border-top-right-radius: .73em;
+    }
+
+    img {
+        border-bottom-left-radius: 0;
         border-top-left-radius: .73em;
         border-top-right-radius: .73em;
     }
