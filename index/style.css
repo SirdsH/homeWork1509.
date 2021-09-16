@@ -11,7 +11,18 @@ body {
     margin-left: 11.5em;
 }
 
+.leftside {
+    border-bottom-left-radius: .73em;
+    border-top-left-radius: .73em;
+    height: 15.625em;
+    width: 27.781em;
+    background: linear-gradient(135deg, hsla(110, 74%, 53%, 1) 0%, hsla(51, 100%, 50%, 1) 80%, hsla(45, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(110, 74%, 53%, 1) 0%, hsla(51, 100%, 50%, 1) 80%, hsla(45, 100%, 50%, 1) 120%);
+    background: -webkit-linear-gradient(135deg, hsla(110, 74%, 53%, 1) 0%, hsla(51, 100%, 50%, 1) 80%, hsla(45, 100%, 50%, 1) 120%);
+}
+
 img {
+    opacity: .4;
     border-bottom-left-radius: .73em;
     border-top-left-radius: .73em;
 }
